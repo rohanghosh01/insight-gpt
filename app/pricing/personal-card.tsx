@@ -70,7 +70,8 @@ export default function PricingPersonal() {
             Boost your productivity with expanded access
           </p>
           <a
-            href="https://buy.stripe.com/test_fZeg2G6ZmfuGaPe4gg"
+            href="#"
+            // href="https://buy.stripe.com/test_fZeg2G6ZmfuGaPe4gg"
             // target="_blank"
           >
             <Button className="w-full mb-6 bg-emerald-500 hover:bg-emerald-600">

@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import UserMenu from "@/components/user-menu";
+// import UserMenu from "@/components/user-menu";
 import { Bot, Menu, Plus } from "lucide-react";
 import axios from "axios";
 import BrandLogo from "./logo";
@@ -75,7 +75,7 @@ export default function Sidebar({ user }: { user: User }) {
             </div>
             <Separator />
             <div className="p-4">
-              <UserMenu user={user} />
+              {/* <UserMenu user={user} /> */}
             </div>
           </motion.aside>
         )}
