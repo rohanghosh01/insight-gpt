@@ -42,8 +42,8 @@ export default function ChatPage({ params }: any) {
       console.error("Error fetching chat:", error);
       toast({
         variant: "destructive",
-        description: `Unable to load conversation ${chatId}`,
-        duration: 4000,
+        title: `Unable to load conversation ${chatId}`,
+        duration: 3000,
       });
       router.push("/");
       return;
