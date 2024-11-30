@@ -10,7 +10,6 @@ import {
 import NewChat from "@/components/new-chat";
 import ChatInput from "@/components/chat-input";
 import TypingEffect from "@/components/typing-effect";
-import { useState } from "react";
 const examplePrompts = [
   { id: 1, title: "Create image", icon: ImagePlus, color: "text-green-400" },
   { id: 2, title: "Summarize text", icon: FileText, color: "text-yellow-700" },
@@ -40,7 +39,6 @@ export default function ChatPage() {
         <TypingEffect
           text="What can I help with?"
           speed={100}
-          wrapper="h1"
           className="text-3xl font-bold"
         />
       </div>

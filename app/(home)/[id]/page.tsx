@@ -5,14 +5,13 @@ import ChatInput from "@/components/chat-input";
 import ChatMessage from "@/components/chat-message";
 import axios from "axios";
 import { useInfiniteQuery } from "@tanstack/react-query";
-import { Loader, ArrowDownCircle, ArrowDown } from "lucide-react";
+import { Loader, ArrowDown } from "lucide-react";
 import { useSession } from "next-auth/react";
-import { redirect, useRouter } from "next/navigation";
+import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import MessageLoading from "@/components/message-loading";
 import { RootContext } from "@/context/rootContext";
 import { toast } from "@/hooks/use-toast";
-import { routeros } from "react-syntax-highlighter/dist/esm/styles/hljs";
 
 export default function ChatPage({ params }: any) {
   const chatId = params.id;
